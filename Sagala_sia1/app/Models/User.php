@@ -6,7 +6,7 @@
  protected $table = 'tbluser';
  // column sa table
  protected $fillable = [
- 'username', 'password', 'gender'
+ 'id','username', 'password', 'gender'
  ];
  public $timestamps = false;
  protected $primarykey = 'id';
