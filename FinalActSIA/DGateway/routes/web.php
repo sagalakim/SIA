@@ -33,11 +33,4 @@ $router->get('/dbs1authors/{id}', 'Dbs1AuthorController@show');
 $router->put('/dbs1authors/{id}', 'Dbs1AuthorController@update');
 $router->delete('/dbs1authors/{id}', 'Dbs1AuthorController@delete');
 
-    //DATABASE 2
-$router->get('/users2', 'User2Controller@index');
-$router->post('/users2', 'User2Controller@add');
-$router->get('/users2/{id}', 'User2Controller@show');
-$router->put('/users2/{id}', 'User2Controller@update');
-$router->delete('/users2/{id}', 'User2Controller@delete'); 
-
 });
