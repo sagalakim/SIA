@@ -31,7 +31,3 @@ $router->post('/authors', 'AuthorController@add');
 $router->get('/authors/{id}', 'AuthorController@show');
 $router->put('/authors/{id}', 'AuthorController@update');
 $router->delete('/authors/{id}', 'AuthorController@delete'); 
-
-//Userjob
-$router->get('/usersjob','UserJobController@index');
-$router->get('/userjob/{id}','UserJobController@show');
